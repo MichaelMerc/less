@@ -1,0 +1,67 @@
+//for dark mode configuration follow the comments
+
+@primary-color: black; //change to white and vice versa
+@text-color: white; //change to black and vice versa
+@border-color: white; //change to black and vice versa
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: @text-color;
+    font-family: 'Quicksand', sans-serif;
+}
+    .container{
+        background-color: @primary-color;
+        width: 100%;
+        height: 635px;
+    }
+        header {
+            background-color: @primary-color;
+            height: 70px;
+            width: 1250px;
+            padding-top: 20px;
+            font-size: x-large;
+            text-align: center;
+        }
+            h1{
+                margin: 0px 30px 0px 30px;
+            }
+        section {
+            font-family: 'Quicksand', sans-serif;
+            margin: 30px 0px 0px 0px;
+            width: 1250px;
+        }
+            ul{
+                margin: -5px 0px 0px 50px;
+                font-size: small;
+                font-weight: bold;
+                font-style: italic;
+            }
+footer{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+    h5{
+        margin-top: 130px;
+    }
+    h6{
+        margin-top: 5px;
+    }
+
+//Classes
+
+.border{
+    border-bottom: @border-color 1px solid;
+    position: relative;
+    left: 50px;
+}
+.margin{
+    margin: 20px 0px 20px 30px;
+}
+.margin-div{
+    margin: 20px 0px 0px 30px;
+}
+.bold-txt{
+    font-weight: bolder;
+    color: lightblue;
+}
